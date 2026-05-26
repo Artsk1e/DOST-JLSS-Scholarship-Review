@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOST-SEI JLSS Scholarship Review Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <span class="icon">🔬</span>
+                <div>
+                    <h1>DOST-SEI JLSS Review Engine</h1>
+                    <p class="tagline">Systems-Level Study Portal for Future Scholars</p>
+                </div>
+            </div>
+            <div class="exam-countdown">
+                <span class="badge">Exam Date: June 28</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="app-navbar">
+        <div class="nav-container">
+            <button class="nav-link active" data-target="dashboard">🏠 Dashboard</button>
+            <button class="nav-link" data-target="math">🧮 Math</button>
+            <button class="nav-link" data-target="science">🧬 Science</button>
+            <button class="nav-link" data-target="english">🖥️ English</button>
+            <button class="nav-link" data-target="ict">💾 ICT Specialization</button>
+        </div>
+    </nav>
+
+    <main class="app-main">
+        <div class="container">
+
+            <section id="dashboard-view" class="view-panel active">
+                <div class="welcome-card">
+                    <h2>Welcome, Fellow DOST JLSS Taker! 🚀</h2>
+                    <p>This web application is optimized to help you master the rigorous engineering, mathematical, linguistic, and scientific logic models tested on the <strong>Junior Level Science Scholarships (JLSS)</strong> examination.</p>
+                    <div class="instruction-grid">
+                        <div class="ins-box">
+                            <h3>⚡ Syntax Rules</h3>
+                            <p>Every topic is structured as a software codebase: Plain-English Analogies first, deep functional mechanics, and clear defensive design against exam traps.</p>
+                        </div>
+                        <div class="ins-box">
+                            <h3>🎮 Interactive Audits</h3>
+                            <p>Test your systems architecture knowledge instantly on live examination challenge components at the bottom of each study module.</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-actions">
+                        <button class="btn btn-primary start-review-btn" data-target="math">Initialize Study Session →</button>
+                    </div>
+                </div>
+
+                <div class="quick-stats">
+                    <div class="stat-card">
+                        <h3>15 Modules</h3>
+                        <p>Fully Implemented</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100% Coverage</h3>
+                        <p>Official Curriculum</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Zero Bloat</h3>
+                        <p>Framework-Free Engine</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="subject-view" class="view-panel" style="display: none;">
+                <div class="subject-header-block">
+                    <button class="btn btn-back" id="back-to-dash-btn">← Back to Dashboard</button>
+                    <h2 id="current-subject-title">Subject Review</h2>
+                    <p id="current-subject-desc">Select a core competency model below to explore its deep specification.</p>
+                </div>
+                
+                <div class="topics-grid" id="topics-card-container"></div>
+            </section>
+
+            <section id="content-view" class="view-panel" style="display: none;">
+                <div class="content-navigation">
+                    <button class="btn btn-back" id="back-to-topics-btn">← Back to Topics</button>
+                    <span class="viewing-breadcrumbs" id="topic-breadcrumbs">Math &gt; Topic 1.1</span>
+                </div>
+
+                <article class="topic-detailed-article">
+                    <header class="topic-article-header">
+                        <h1 id="article-title">Topic Title Here</h1>
+                        <div class="module-pill" id="article-module-pill">Module 1</div>
+                    </header>
+
+                    <div class="content-block block-analogy">
+                        <h3>💡 The Plain-English Analogy</h3>
+                        <div id="article-analogy" class="block-body"></div>
+                    </div>
+
+                    <div class="content-block block-mechanics">
+                        <h3>📐 Deep-Dive Mechanics & Technical Specification</h3>
+                        <div id="article-mechanics" class="block-body"></div>
+                    </div>
+
+                    <div class="content-block block-rule">
+                        <h3>🎯 The Absolute Exam Rule</h3>
+                        <blockquote id="article-rule"></blockquote>
+                    </div>
+
+                    <div class="content-block block-traps">
+                        <h3>⚠️ Distractor Firewall (Defeating the Traps)</h3>
+                        <div id="article-traps" class="block-body"></div>
+                    </div>
+
+                    <div class="content-block block-challenge">
+                        <h3>🧠 Sample Examination Challenge</h3>
+                        <div class="quiz-container">
+                            <p class="quiz-question" id="quiz-question-text">Question goes here?</p>
+                            <form id="quiz-form" class="quiz-options-list">
+                                </form>
+                            <button type="button" class="btn btn-submit-quiz" id="quiz-submit-btn">Evaluate Selection</button>
+                            
+                            <div class="quiz-feedback hidden" id="quiz-feedback-card">
+                                <h4 id="feedback-status-title">Evaluation Passed</h4>
+                                <p id="feedback-explanation-text">Explanation details.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-container">
+            <p>© 2026 DOST-SEI JLSS Candidate Accelerator Portal. Engineered for Academic Excellence.</p>
+            <p class="footer-subtext">Built with standard semantic HTML5, adaptive grid layouts, and modular state architecture.</p>
+        </div>
+    </footer>
+
+    <!-- KaTeX for Beautiful Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
