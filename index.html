@@ -5,29 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOST-SEI JLSS Scholarship Review Portal</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body { line-height: 1.6; background-color: #f8fafc; font-family: system-ui, sans-serif; }
-        h1, h2, p, ul, ol { margin-bottom: 1.5rem; }
-        blockquote, .block-traps .block-body { border-left: 4px solid #ccc; padding: 1rem; background-color: #f9f9f9; }
-        .math-card {
-            background: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 24px;
-            margin-bottom: 24px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        .math-equation {
-            font-size: 1.1em;
-            margin-left: 1rem;
-            padding: 10px 0;
-        }
-        .align-block { display: table; margin: 0 auto; }
-        .align-row { display: table-row; }
-        .align-cell { display: table-cell; padding: 2px 5px; }
-        .align-right { text-align: right; }
-        .align-left { text-align: left; }
-    </style>
 </head>
 <body>
 
@@ -163,6 +140,11 @@
         </div>
     </footer>
 
+    <!-- KaTeX for Beautiful Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <script src="app.js"></script>
 </body>
