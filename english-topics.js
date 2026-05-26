@@ -346,7 +346,5 @@ const englishTopics = [
   }
 ];
 
-// Export for use in HTML/Node.js environments
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = englishTopics;
-}
+
+export default englishTopics

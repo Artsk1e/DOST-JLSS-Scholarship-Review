@@ -480,7 +480,5 @@ const scienceTopics = [
   }
 ];
 
-// Export for use in applications
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = scienceTopics;
-}
+
+export default scienceTopics

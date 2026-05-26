@@ -218,7 +218,7 @@ const ictTopics = [
       correct: "B",
       explanation: "Getting user input is an external data interaction with the system. This requires the Parallelogram (Input/Output) symbol, not the Rectangle which is used only for internal computational operations."
     }
+
   }
 ];
-
-module.exports = ictTopics;
+export default ictTopics

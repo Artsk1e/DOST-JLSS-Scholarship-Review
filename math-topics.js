@@ -639,7 +639,5 @@ const mathTopics = [
   }
 ];
 
-// Export for use in Node.js/module systems
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = mathTopics;
-}
+
+export default mathTopics
