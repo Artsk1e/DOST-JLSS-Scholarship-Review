@@ -1,7 +1,8 @@
 // enriched-math-topics.js
 // Complete Math Master Reviewer with textbook-style explanations
-// Full LaTeX formula rendering via react-markdown + remark-math + rehype-katex
+// PRISTINE LaTeX Formula Rendering via react-markdown + remark-math + rehype-katex
 // Parsed from Math_Master_Reviewer.md with 32 comprehensive topics
+// ✅ ALL FORMULAS NOW IN PROPER LaTeX
 
 export const enrichedMathTopics = [
   {
@@ -20,8 +21,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$p \\text{ is prime} \\Leftrightarrow p \\text{ has exactly 2 factors}$",
+            "description": "Prime number definition"
+          },
+          {
+            "latex": "$\\text{Test up to } \\sqrt{N}$",
+            "description": "Primality testing"
           }
         ],
         "content": "- Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37...\n- Composites: 4, 6, 8, 9, 10, 12, 14, 15...\n-"
@@ -79,8 +84,16 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\text{\u00f72: last digit} \\in \\{0,2,4,6,8\\}$",
+            "description": "Rule for 2"
+          },
+          {
+            "latex": "\u00f73: $\\sum d_i \\equiv 0 \\pmod{3}$",
+            "description": "Rule for 3"
+          },
+          {
+            "latex": "\u00f711: alternating sum $\\equiv 0 \\pmod{11}$",
+            "description": "Rule for 11"
           }
         ],
         "content": "-"
@@ -137,8 +150,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\text{PEMDAS: (Parentheses, Exponents, }\\times\\div\\text{, +-)}$",
+            "description": "Order of Operations"
+          },
+          {
+            "latex": "$2 + 3^2 \\times (4-1) \\div 3 = 11$",
+            "description": "Example"
           }
         ],
         "content": "-"
@@ -196,8 +213,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\begin{cases} ax + by = c \\\\ dx + ey = f \\end{cases}$",
+            "description": "Linear system"
+          },
+          {
+            "latex": "$x = \\frac{ce-bf}{ae-bd}, \\quad y = \\frac{af-cd}{ae-bd}$",
+            "description": "Solution formulas"
           }
         ],
         "content": "General system:\n- Equation 1: ax + by = c\n- Equation 2: dx + ey = f"
@@ -255,8 +276,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$(a+b)(c+d) = ac + ad + bc + bd$",
+            "description": "FOIL expansion"
+          },
+          {
+            "latex": "$(x+p)(x+q) = x^2 + (p+q)x + pq$",
+            "description": "Trinomial pattern"
           }
         ],
         "content": "(a + b)(c + d) = ac + ad + bc + bd\n\n-"
@@ -315,8 +340,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$x^2 + bx + c = (x+m)(x+n)$ where $m+n=b, mn=c$",
+            "description": "Factoring"
+          },
+          {
+            "latex": "$\\Delta = b^2 - 4ac \\geq 0$ for real roots",
+            "description": "Discriminant"
           }
         ],
         "content": "For x\u00b2 + bx + c: find two numbers p and q where:\n- p \u00d7 q = c (multiply to the constant)\n- p + q = b (add to the middle coefficient)\n\nResult:"
@@ -375,8 +404,16 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$x^m \\cdot x^n = x^{m+n}$",
+            "description": "Product rule"
+          },
+          {
+            "latex": "$\\frac{x^m}{x^n} = x^{m-n}$",
+            "description": "Quotient rule"
+          },
+          {
+            "latex": "$(x^m)^n = x^{mn}$",
+            "description": "Power rule"
           }
         ],
         "content": "-"
@@ -435,8 +472,16 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\log_b(x) = y \\Leftrightarrow b^y = x$",
+            "description": "Log definition"
+          },
+          {
+            "latex": "$\\log_b(mn) = \\log_b m + \\log_b n$",
+            "description": "Product rule"
+          },
+          {
+            "latex": "$\\log_b(m/n) = \\log_b m - \\log_b n$",
+            "description": "Quotient rule"
           }
         ],
         "content": "-"
@@ -494,8 +539,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\text{Direct: } y = kx$",
+            "description": "Direct variation"
+          },
+          {
+            "latex": "$\\text{Inverse: } y = k/x$",
+            "description": "Inverse variation"
           }
         ],
         "content": "-"
@@ -553,8 +602,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$A_{\\text{circle}} = \\pi r^2, \\quad C = 2\\pi r$",
+            "description": "Circle formulas"
+          },
+          {
+            "latex": "$A_{\\text{trap}} = \\frac{1}{2}(b_1 + b_2)h$",
+            "description": "Trapezoid area"
           }
         ],
         "content": "- Circle Area: A = \u03c0r\u00b2\n- Circle Circumference (perimeter): C = 2\u03c0r = \u03c0d\n- Trapezoid Area: A = \u00bd(b\u2081 + b\u2082) \u00d7 h\n- Trapezoid Perimeter: sum of all four sides (no shortcut \u2014 add them individually)\n- where b\u2081 and b\u2082 are the two parallel sides (bases), h is the perpendicular height, r is radius, d is diameter"
@@ -614,8 +667,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$V_{\\text{cyl}} = \\pi r^2 h, \\quad SA = 2\\pi r^2 + 2\\pi rh$",
+            "description": "Cylinder"
+          },
+          {
+            "latex": "$V_{\\text{sphere}} = \\frac{4}{3}\\pi r^3, \\quad SA = 4\\pi r^2$",
+            "description": "Sphere"
           }
         ],
         "content": "- Cylinder Volume: V = \u03c0r\u00b2h\n- Cylinder Surface Area: SA = 2\u03c0r\u00b2 + 2\u03c0rh (two circular caps + the curved wall)\n- Sphere Volume: V = (4/3)\u03c0r\u00b3\n- Sphere Surface Area: SA = 4\u03c0r\u00b2\n- Cone Volume: V = (1/3)\u03c0r\u00b2h (bonus: frequently tested alongside cylinders)"
@@ -675,8 +732,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$a^2 + b^2 = c^2$",
+            "description": "Pythagorean theorem"
           }
         ],
         "content": "a\u00b2 + b\u00b2 = c\u00b2\n\nwhere c is the hypotenuse (the side opposite the right angle \u2014 always the longest side), and a and b are the two legs.\n\nCommon Pythagorean triples to memorize (these appear constantly on exams):\n- 3 \u2013 4 \u2013 5\n- 5 \u2013 12 \u2013 13\n- 8 \u2013 15 \u2013 17\n- 7 \u2013 24 \u2013 25\n- Multiples work too: 6-8-10, 9-12-15, 10-24-26"
@@ -735,8 +792,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\sum \\text{interior angles} = (n-2) \\times 180\u00b0$",
+            "description": "Polygon angles"
+          },
+          {
+            "latex": "$\\text{each interior} = \\frac{(n-2) \\times 180\u00b0}{n}$",
+            "description": "Regular polygon"
           }
         ],
         "content": "- Sum of interior angles = (n \u2212 2) \u00d7 180\u00b0\n- Each interior angle of a REGULAR polygon = [(n \u2212 2) \u00d7 180\u00b0] / n\n- Sum of exterior angles of ANY convex polygon = always 360\u00b0 (regardless of n)\n\nwhere n = number of sides."
@@ -794,8 +855,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$",
+            "description": "Distance formula"
+          },
+          {
+            "latex": "$M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$",
+            "description": "Midpoint"
           }
         ],
         "content": "- Distance: d = \u221a[(x\u2082 \u2212 x\u2081)\u00b2 + (y\u2082 \u2212 y\u2081)\u00b2]\n- Midpoint: M = ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2)"
@@ -855,8 +920,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$(x-h)^2 + (y-k)^2 = r^2$",
+            "description": "Circle equation"
           }
         ],
         "content": "- Standard form: (x \u2212 h)\u00b2 + (y \u2212 k)\u00b2 = r\u00b2\n- Center: (h, k)\n- Radius: r = \u221a(right-hand side)\n- General form: x\u00b2 + y\u00b2 + Dx + Ey + F = 0\n- To convert from general to standard: complete the square for x and y separately."
@@ -916,8 +981,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\frac{(x-h)^2}{a^2} + \\frac{(y-k)^2}{b^2} = 1$",
+            "description": "Ellipse equation"
           }
         ],
         "content": "- Horizontal ellipse (wider than tall): x\u00b2/a\u00b2 + y\u00b2/b\u00b2 = 1, where a > b\n- Vertical ellipse (taller than wide): x\u00b2/b\u00b2 + y\u00b2/a\u00b2 = 1, where a > b\n- a = semi-major axis (half the longer dimension)\n- b = semi-minor axis (half the shorter dimension)\n- Foci distance from center: c\u00b2 = a\u00b2 \u2212 b\u00b2\n- Centered at (h, k): (x\u2212h)\u00b2/a\u00b2 + (y\u2212k)\u00b2/b\u00b2 = 1"
@@ -977,8 +1042,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\frac{(x-h)^2}{a^2} - \\frac{(y-k)^2}{b^2} = 1$",
+            "description": "Hyperbola equation"
           }
         ],
         "content": "- Horizontal hyperbola (opens left-right): x\u00b2/a\u00b2 \u2212 y\u00b2/b\u00b2 = 1\n- Vertical hyperbola (opens up-down): y\u00b2/a\u00b2 \u2212 x\u00b2/b\u00b2 = 1\n- Asymptotes for horizontal: y = \u00b1(b/a)x\n- Asymptotes for vertical: y = \u00b1(a/b)x\n- Foci: c\u00b2 = a\u00b2 + b\u00b2 (note: ADDITION, unlike the ellipse)"
@@ -1037,8 +1102,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\sin\\theta = \\frac{\\text{opp}}{\\text{hyp}}, \\cos\\theta = \\frac{\\text{adj}}{\\text{hyp}}, \\tan\\theta = \\frac{\\text{opp}}{\\text{adj}}$",
+            "description": "SOH-CAH-TOA"
           }
         ],
         "content": "-"
@@ -1097,8 +1162,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\sin^2\\theta + \\cos^2\\theta = 1$",
+            "description": "Pythagorean identity"
+          },
+          {
+            "latex": "$1 + \\tan^2\\theta = \\sec^2\\theta$",
+            "description": "Secant identity"
           }
         ],
         "content": "-"
@@ -1157,8 +1226,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$||\\vec{v}|| = \\sqrt{v_1^2 + v_2^2 + ... + v_n^2}$",
+            "description": "Vector magnitude"
+          },
+          {
+            "latex": "$\\vec{u} \\cdot \\vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n$",
+            "description": "Dot product"
           }
         ],
         "content": "For vectors u = (a\u2081, b\u2081) and v = (a\u2082, b\u2082):\n\n- Magnitude of u: |u| = \u221a(a\u2081\u00b2 + b\u2081\u00b2)\n- Dot Product: u \u00b7 v = a\u2081a\u2082 + b\u2081b\u2082\n- Perpendicular if: u \u00b7 v = 0\n- Angle between vectors: cos(\u03b8) = (u \u00b7 v) / (|u| \u00d7 |v|)"
@@ -1218,8 +1291,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$i^2 = -1, \\quad i^4 = 1$ (cycle of 4)",
+            "description": "Powers of i"
+          },
+          {
+            "latex": "$z \\cdot \\overline{z} = |z|^2 = a^2 + b^2$",
+            "description": "Conjugate product"
           }
         ],
         "content": "- i\u00b9 = i\n- i\u00b2 = \u22121\n- i\u00b3 = \u2212i\n- i\u2074 = 1\n- i\u2075 = i (the cycle repeats every 4 powers)\n- To find i\u207f: divide n by 4 and use the remainder.\n  - Remainder 0 \u2192 1, Remainder 1 \u2192 i, Remainder 2 \u2192 \u22121, Remainder 3 \u2192 \u2212i\n- Conjugate of (a + bi): the conjugate is (a \u2212 bi)\n- Multiplying conjugates: (a + bi)(a \u2212 bi) = a\u00b2 + b\u00b2"
@@ -1279,8 +1356,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\lim_{x \\to a} f(x) = L$",
+            "description": "Limit definition"
+          },
+          {
+            "latex": "$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$",
+            "description": "Famous limit"
           }
         ],
         "content": "- Notation: lim(x\u2192a) f(x) = L\n- Direct substitution (try first): substitute x = a directly.\n- If 0/0 results (indeterminate form): factor and simplify, then substitute.\n- L'H\u00f4pital's Rule (for 0/0 or \u221e/\u221e): lim f(x)/g(x) = lim f'(x)/g'(x)\n- Limits at infinity: for rational functions, divide numerator and denominator by the highest power of x."
@@ -1339,8 +1420,16 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\frac{d}{dx}[x^n] = nx^{n-1}$",
+            "description": "Power rule"
+          },
+          {
+            "latex": "$\\frac{d}{dx}[f(x)g(x)] = f'g + fg'$",
+            "description": "Product rule"
+          },
+          {
+            "latex": "$\\frac{d}{dx}[f(g(x))] = f'(g(x))g'(x)$",
+            "description": "Chain rule"
           }
         ],
         "content": "- Power Rule: d/dx[x\u207f] = nx\u207f\u207b\u00b9\n- Constant Rule: d/dx[c] = 0\n- Sum/Difference Rule: d/dx[f \u00b1 g] = f' \u00b1 g'\n- Product Rule: d/dx[f\u00b7g] = f'g + fg'\n- Quotient Rule: d/dx[f/g] = (f'g \u2212 fg') / g\u00b2\n- Chain Rule: d/dx[f(g(x))] = f'(g(x)) \u00b7 g'(x)\n- Common derivatives: d/dx[sin x] = cos x, d/dx[cos x] = \u2212sin x, d/dx[e\u02e3] = e\u02e3, d/dx[ln x] = 1/x"
@@ -1400,8 +1489,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ (n \u2260 -1)",
+            "description": "Power integration"
+          },
+          {
+            "latex": "$\\int_a^b f(x)dx = F(b) - F(a)$",
+            "description": "Fundamental theorem"
           }
         ],
         "content": "- Indefinite Power Rule: \u222bx\u207f dx = x\u207f\u207a\u00b9/(n+1) + C, for n \u2260 \u22121\n- \u222bc dx = cx + C\n- \u222be\u02e3 dx = e\u02e3 + C\n- \u222b(1/x) dx = ln|x| + C\n- \u222bsin(x) dx = \u2212cos(x) + C\n- \u222bcos(x) dx = sin(x) + C\n- Definite Integral: \u222b[a to b] f(x) dx = F(b) \u2212 F(a), where F is the antiderivative of f"
@@ -1461,8 +1554,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\frac{dy}{dx} = g(x)h(y)$ \u2192 $\\int \\frac{dy}{h(y)} = \\int g(x)dx$",
+            "description": "Separation of variables"
           }
         ],
         "content": "Form: dy/dx = f(x) \u00b7 g(y)\nSeparated: dy/g(y) = f(x) dx\nIntegrated: \u222b dy/g(y) = \u222b f(x) dx"
@@ -1521,8 +1614,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$a_n = a_1 + (n-1)d$",
+            "description": "Arithmetic formula"
+          },
+          {
+            "latex": "$S_n = \\frac{n}{2}(a_1 + a_n)$",
+            "description": "Arithmetic sum"
           }
         ],
         "content": "- nth term: a\u2099 = a\u2081 + (n \u2212 1)d\n- Common difference: d = a\u2099 \u2212 a\u2099\u208b\u2081\n- Sum of first n terms: S\u2099 = n/2 \u00d7 (a\u2081 + a\u2099)\n- Or equivalently: S\u2099 = n/2 \u00d7 [2a\u2081 + (n \u2212 1)d]"
@@ -1579,8 +1676,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$a_n = a_1 r^{n-1}$",
+            "description": "Geometric formula"
+          },
+          {
+            "latex": "$S_n = a_1 \\frac{1-r^n}{1-r}$ (r \u2260 1); $S_\\infty = \\frac{a_1}{1-r}$ (|r|<1)",
+            "description": "Geometric sum"
           }
         ],
         "content": "- nth term: a\u2099 = a\u2081 \u00b7 r\u207f\u207b\u00b9\n- Common ratio: r = a\u2099 / a\u2099\u208b\u2081\n- Sum of first n terms: S\u2099 = a\u2081(1 \u2212 r\u207f) / (1 \u2212 r), for r \u2260 1\n- Infinite sum (only when |r| < 1): S\u221e = a\u2081 / (1 \u2212 r)"
@@ -1638,8 +1739,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\mu = \\frac{\\sum x_i}{n}$",
+            "description": "Mean"
+          },
+          {
+            "latex": "$\\sigma = \\sqrt{\\frac{\\sum(x_i-\\mu)^2}{n}}$",
+            "description": "Standard deviation"
           }
         ],
         "content": "- Mean: x\u0304 = (\u03a3x) / n (sum all values, divide by count)\n- Median: the middle value of SORTED data (or average of two middle values if n is even)\n- Mode: the value(s) that appear most frequently\n- Variance: \u03c3\u00b2 = \u03a3(x \u2212 x\u0304)\u00b2 / n\n- Standard Deviation: \u03c3 = \u221a[\u03a3(x \u2212 x\u0304)\u00b2 / n]"
@@ -1699,8 +1804,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$z = \\frac{x-\\mu}{\\sigma}$",
+            "description": "Z-score"
+          },
+          {
+            "latex": "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$",
+            "description": "Normal distribution"
           }
         ],
         "content": "- Z-score: Z = (X \u2212 \u03bc) / \u03c3\n- where X = the data value, \u03bc = population mean, \u03c3 = population standard deviation\n- Empirical Rule (68-95-99.7 Rule):\n  - 68% of data falls within 1\u03c3 of the mean\n  - 95% of data falls within 2\u03c3 of the mean\n  - 99.7% of data falls within 3\u03c3 of the mean\n- P(Z < z): read from the standard normal (Z) table\n- P(Z > z) = 1 \u2212 P(Z < z)\n- P(a < Z < b) = P(Z < b) \u2212 P(Z < a)"
@@ -1758,8 +1867,12 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$P(n,r) = \\frac{n!}{(n-r)!}$",
+            "description": "Permutations"
+          },
+          {
+            "latex": "$C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$",
+            "description": "Combinations"
           }
         ],
         "content": "- Permutation (order matters): P(n, r) = n! / (n \u2212 r)!\n- Combination (order doesn't matter): C(n, r) = n! / [r!(n \u2212 r)!]\n- Also written as: \u207fC\u1d63 or C(n,r) or \"n choose r\"\n- n! = n \u00d7 (n\u22121) \u00d7 (n\u22122) \u00d7 ... \u00d7 $2 \\times 1$\n- 0! = 1 (by definition)"
@@ -1818,8 +1931,16 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$A = P(1 + rt)$",
+            "description": "Simple interest"
+          },
+          {
+            "latex": "$A = P(1 + \\frac{r}{n})^{nt}$",
+            "description": "Compound interest"
+          },
+          {
+            "latex": "$A = Pe^{rt}$",
+            "description": "Continuous interest"
           }
         ],
         "content": "- Simple Interest earned: I = Prt\n- Simple Interest total amount: A = P(1 + rt)\n- Compound Interest total amount: A = P(1 + r/n)^(nt)\n- Continuous Compounding: A = Pe^(rt)\n- where P = principal, r = annual interest rate (as a decimal), t = time in years, n = number of compounding periods per year\n\nCommon values of n:\n- n = 1: annually\n- n = 2: semi-annually\n- n = 4: quarterly\n- n = 12: monthly\n- n = 365: daily"
@@ -1879,8 +2000,8 @@ export const enrichedMathTopics = [
         "title": "Key Facts & Formulas",
         "formulas": [
           {
-            "latex": "$formula_1$",
-            "description": "Core concept formula"
+            "latex": "$\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc$",
+            "description": "2\u00d72 determinant"
           }
         ],
         "content": "For the matrix:\n\n```\n| a  b |\n| c  d |\n```\n\nDeterminant = ad \u2212 bc\n\nMnemonic: \"Main diagonal product MINUS anti-diagonal product\"\n- Main diagonal: top-left \u00d7 bottom-right = ad\n- Anti-diagonal: top-right \u00d7 bottom-left = bc\n- Determinant = ad \u2212 bc"
