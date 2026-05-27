@@ -2,6 +2,8 @@ import { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 import ContentBlock from './ContentBlock'
 import QuizSection from './QuizSection'
+import ProgressiveTopicView from './enriched/ProgressiveTopicView'
+import { getEnrichedTopic } from '../data/enriched-math-topics'
 
 export default function TopicArticle() {
   const { currentTopic } = useContext(AppContext)
@@ -10,6 +12,15 @@ export default function TopicArticle() {
     return <div>No topic selected</div>
   }
 
+  // Check if we have enriched content for this topic
+  const enrichedTopic = getEnrichedTopic(currentTopic.id)
+
+  // If enriched content exists, use the progressive view with LaTeX rendering
+  if (enrichedTopic) {
+    return <ProgressiveTopicView topic={enrichedTopic} />
+  }
+
+  // Fallback to old content view
   return (
     <article className="w-full">
       <header className="mb-8">
