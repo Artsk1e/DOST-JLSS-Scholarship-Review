@@ -6,7 +6,7 @@
 
 export const enrichedMathTopics = [
   {
-    "id": "math-1",
+    "id": "math-1-1",
     "topicId": "1.1",
     "title": "Prime vs. Composite Numbers",
     "section": "Math",
@@ -69,7 +69,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-2",
+    "id": "math-1-2",
     "topicId": "1.2",
     "title": "Divisibility Rules",
     "section": "Math",
@@ -135,7 +135,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-3",
+    "id": "math-1-3",
     "topicId": "1.3",
     "title": "Order of Operations (PEMDAS)",
     "section": "Math",
@@ -198,7 +198,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-4",
+    "id": "math-1-4",
     "topicId": "2.1",
     "title": "Linear Systems (Substitution & Elimination)",
     "section": "Math",
@@ -261,7 +261,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-5",
+    "id": "math-1-5",
     "topicId": "2.2",
     "title": "The FOIL Method",
     "section": "Math",
@@ -325,7 +325,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-6",
+    "id": "math-2-1",
     "topicId": "2.3",
     "title": "Factoring Quadratics",
     "section": "Math",
@@ -389,7 +389,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-7",
+    "id": "math-2-2",
     "topicId": "2.4",
     "title": "Exponent Rules",
     "section": "Math",
@@ -457,7 +457,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-8",
+    "id": "math-2-3",
     "topicId": "2.5",
     "title": "Logarithms",
     "section": "Math",
@@ -524,7 +524,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-9",
+    "id": "math-2-4",
     "topicId": "2.6",
     "title": "Direct vs. Inverse Variation",
     "section": "Math",
@@ -587,7 +587,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-10",
+    "id": "math-2-5",
     "topicId": "3.1",
     "title": "2D Area & Perimeter (Circles and Trapezoids)",
     "section": "Math",
@@ -652,7 +652,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-11",
+    "id": "math-3-1",
     "topicId": "3.2",
     "title": "3D Volume (Cylinders and Spheres)",
     "section": "Math",
@@ -717,7 +717,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-12",
+    "id": "math-3-2",
     "topicId": "3.3",
     "title": "Pythagorean Theorem",
     "section": "Math",
@@ -777,7 +777,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-13",
+    "id": "math-3-3",
     "topicId": "3.4",
     "title": "Polygon Interior Angles",
     "section": "Math",
@@ -840,7 +840,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-14",
+    "id": "math-3-4",
     "topicId": "4.1",
     "title": "Distance & Midpoint Formulas",
     "section": "Math",
@@ -905,7 +905,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-15",
+    "id": "math-3-5",
     "topicId": "4.2",
     "title": "Conic Sections: Circles",
     "section": "Math",
@@ -966,7 +966,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-16",
+    "id": "math-4-1",
     "topicId": "4.3",
     "title": "Conic Sections: Ellipses",
     "section": "Math",
@@ -1027,7 +1027,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-17",
+    "id": "math-4-2",
     "topicId": "4.4",
     "title": "Conic Sections: Hyperbolas",
     "section": "Math",
@@ -1087,7 +1087,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-18",
+    "id": "math-4-3",
     "topicId": "5.1",
     "title": "Right Triangle Ratios (SOH-CAH-TOA)",
     "section": "Math",
@@ -1147,7 +1147,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-19",
+    "id": "math-4-4",
     "topicId": "5.2",
     "title": "The Pythagorean Identity",
     "section": "Math",
@@ -1211,7 +1211,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-20",
+    "id": "math-4-5",
     "topicId": "6.1",
     "title": "Vector Magnitude & Dot Product",
     "section": "Math",
@@ -1276,7 +1276,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-21",
+    "id": "math-5-1",
     "topicId": "6.2",
     "title": "Complex Numbers: Powers of i & Conjugates",
     "section": "Math",
@@ -1341,7 +1341,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-22",
+    "id": "math-5-2",
     "topicId": "7.1",
     "title": "Limits",
     "section": "Math",
@@ -1405,7 +1405,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-23",
+    "id": "math-5-3",
     "topicId": "7.2",
     "title": "Derivatives: Power, Product, Quotient, and Chain Rules",
     "section": "Math",
@@ -1474,7 +1474,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-24",
+    "id": "math-5-4",
     "topicId": "7.3",
     "title": "Integrals: Definite vs. Indefinite",
     "section": "Math",
@@ -1539,7 +1539,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-25",
+    "id": "math-5-5",
     "topicId": "7.4",
     "title": "Separation of Variables (Differential Equations)",
     "section": "Math",
@@ -1599,7 +1599,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-26",
+    "id": "math-6-1",
     "topicId": "8.1",
     "title": "Arithmetic Sequences & Series",
     "section": "Math",
@@ -1661,7 +1661,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-27",
+    "id": "math-6-2",
     "topicId": "8.2",
     "title": "Geometric Sequences & Series",
     "section": "Math",
@@ -1724,7 +1724,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-28",
+    "id": "math-6-3",
     "topicId": "9.1",
     "title": "Mean, Median, Mode & Standard Deviation",
     "section": "Math",
@@ -1789,7 +1789,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-29",
+    "id": "math-6-4",
     "topicId": "9.2",
     "title": "Normal Distribution & Z-Scores",
     "section": "Math",
@@ -1852,7 +1852,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-30",
+    "id": "math-6-5",
     "topicId": "9.3",
     "title": "Combinatorics: Permutations vs. Combinations",
     "section": "Math",
@@ -1916,7 +1916,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-31",
+    "id": "math-7-1",
     "topicId": "10.1",
     "title": "Simple vs. Compound Interest",
     "section": "Math",
@@ -1985,7 +1985,7 @@ export const enrichedMathTopics = [
     }
   },
   {
-    "id": "math-32",
+    "id": "math-7-2",
     "topicId": "10.2",
     "title": "2\u00d72 Matrix Determinants",
     "section": "Math",
